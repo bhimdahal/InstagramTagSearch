@@ -31,7 +31,7 @@ $(document).ready(function(){
          $("#theElement").html(" ");
          var userInput = $("#userInput").val().replace(/ /g,"_");
          //var userInput = document.getElementById("userInput").value.replace(/ /g,"_");
-         JSONurl = "https://api.instagram.com/v1/tags/"+userInput+"/media/recent/?client_id=5f9365e9f1054aa991726d731c65aa02";
+         JSONurl = "https://api.instagram.com/v1/tags/"+userInput+"/media/recent/?client_id=enter your client id here";
 
          console.log(userInput);
 
